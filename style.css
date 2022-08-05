@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@font-face {
+    font-weight: normal;
+    font-family: 'Peteroy';
+    src: url('fontes/peteroy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Wash-Your-Hand';
+    src: url('./fontes/webfonts_Wash-Your-Hand/Wash-Your-Hand.ttf.woff') format('woff'),
+        url('./fontes/webfonts_Wash-Your-Hand/Wash-Your-Hand.ttf.svg') format('svg'),
+        url('./fontes/webfonts_Wash-Your-Hand/Wash-Your-Hand.ttf.eot'),
+        url('Wash-Your-Hand.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fonte-android: 'Peteroy', cursive;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #0000ff82;
+}
+
+header {
+    padding-top: 38px;
+    padding-left: 76px;
+}
+
+header a {
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+header>a:hover {
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.496), transparent);
+}
+
+
+header>button:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.496), transparent);
+}
+
+
+header>button:active {
+    background-image: linear-gradient(to top, rgb(0, 0, 255), rgba(255, 255, 255, 0.344));
+}
+
+.link-login {
+    Width: 130px;
+    Height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 6px 22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+header > button {
+    Width: 130px;
+    Height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 6px 22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img {
+    padding-top: 144px;
+    padding-left: 125px;
+    width: 520px;
+    height: 500px;
+    display: inline-block;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    margin-left: 86px;
+    display: inline-block;
+    padding-right: 125px;
+}
+
+h1 {
+    font-family: 'Wash-Your-Hand';
+    font-size: 110px;
+    width: 550px;
+    line-height: 122px;
+    margin-top: 144px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 71px;
+    font-family: 'Wash-Your-Hand';
+}
+
+p {
+    text-align: justify;
+    width: 551px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Peteroy', cursive;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 23px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 10px;
+    color: #000000;
+    padding: 8px 26px 8px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.button-main:hover {
+    background-color: #95da00;
+
+}
+
+.button-main:active {
+    background-color: #a1eb00bc;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1286px) {
+    img {
+        padding-top: 144px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 550px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        margin-top: 85px;
+    }
+    header {
+        padding-top: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        display: table;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1125) {
+    img {
+        padding-top: 144px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    section {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+    header {
+        padding-top: 38px;
+        margin: 0px;
+        padding: 0px;
+        display: table;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    header {
+        display: none;
+    }
+    img {
+        margin-top: 50px;
+        display: block;
+        margin: 50px auto 10px;
+    }
+    h1 {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        margin: 20px 10px;
+    }
+    .button-main {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    p {
+        display: none;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section {
+        margin-bottom: 100px;
+    }
+}

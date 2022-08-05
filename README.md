@@ -2,7 +2,10 @@
 
 
 
-<img src="./WE CARE ABOUT YOUR PET.png" alt="exemplo imagem">
+<img src="./img/We Care - Responsivo 0.png" alt="exemplo imagem">
+<img src="./img/We Care - Responsivo 1.png" alt="exemplo imagem"> 
+<img src="./img/We Care - Responsivo 2.png" alt="exemplo imagem">
+<img src="./img/We Care - Responsivo 3.png" alt="exemplo imagem">
 
 > This project is being developed to help your pet.
 
@@ -25,7 +28,7 @@ We thank the following people who contributed to this project:
   <tr>
       <td align="center">
           <a href="#">
-                <img src="./my photo.jpeg" width="100px;" alt="Foto do Isaque Batista no GitHub"/><br>
+                <img src="./img/my photo.jpeg" width="100px;" alt="Foto do Isaque Batista no GitHub"/><br>
                 <sub>
                 <b>Isaque Batista</b>
                 </sub>
